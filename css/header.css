@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+.header {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    /* background: linear-gradient(180deg,#000 50%, #000 50%); */
+    overflow: hidden;
+    background: url('../imagens/background.jpg');
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+}
+
+.header .propaganda-img {
+    position: absolute;
+    bottom: 25%;
+    right: -5%;
+    height: -5%;
+    object-fit: contain;
+} 
+
+.propaganda-content {
+    position: absolute;
+    top: 40%;
+    transform: translate(25%, -50%);
+}
+
+.propaganda-content .discount {
+    color: #fff;
+}
+
+.propaganda-content h1 span {
+    background: linear-gradient(to right,#af01ff , #00f0f0 , #14f000 );
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 5rem;
+    font-weight: 300;
+    display: block;
+    line-height: 1;
+}
+
+.propaganda-content h2 {
+    background: linear-gradient(to right,#af01ff , #00f0f0 , #14f000 );
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.propaganda-content h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.propaganda-content .contador {
+    font-size: 30px;  
+    color: rgb(255, 255, 255);
+}
+
+
+
+/************* MEDIA QUERY *************/
+
+@media only screen and (max-width: 1200px){
+    .header .propaganda-img{
+        right: -20%;
+    }
+
+    .propaganda-content{
+        transform: translate(20%, -50%);
+    }
+
+    .propaganda-content h2{
+        font-size: 2rem;
+    }
+
+    .propaganda-content h1 span {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 996px){
+    .header{
+        min-height: 70vh;
+    }
+
+    .header .propaganda-img{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 567px){
+    .header{
+        min-height: 100vh;
+    }
+
+    .header .propaganda-img{
+        display: none;
+    }
+
+    .propaganda-content{
+        transform: translate(15%, -50%);
+    }
+
+    .propaganda-content h2{
+        font-size: 1.8rem;
+    }
+
+    .propaganda-content h1 span {
+        font-size: 4rem;
+    }
+
+    .propaganda-content a {
+        padding: 1rem 3rem;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width: 550px){
+    .propaganda-content h1 span {
+        font-size: 3.5rem;
+        margin-left: -5%;
+    }
+
+    .propaganda-content h2{
+        margin-left: -5%;
+    }
+
+    .propaganda-content h3 {
+        font-size: 22px;
+        margin-left: -5%;
+    }
+
+    .propaganda-content .contador {
+        font-size: 22px; 
+        margin-left: -5%; 
+    }
+}

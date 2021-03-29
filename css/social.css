@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker&display=swap');
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Blinker', sans-serif;
+    background: linear-gradient(90deg,#011627 50%, #011627 50%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    box-shadow: 2px 2px 30px rgba(0,0,0,.05);
+    z-index: 100;
+}
+
+.social-call {
+    height: 40px;
+    border: 1px solid rgba(0,0,0,.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a {
+    margin: 0px 5px;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.text {
+    color: #fff;
+    margin-left: 30px;
+    font-size: 0.9rem;
+}
+
+.social a:hover {
+    color: #8400ff;
+    transition: all ease 0.3s;
+}

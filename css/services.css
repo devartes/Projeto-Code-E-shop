@@ -1,0 +1,46 @@
+.section {
+    padding: 5rem 0 0 0;
+    background: linear-gradient(90deg,#181717 50%, #181717 50%);
+}
+
+.service-center {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 5rem;
+}
+
+.service {
+    border: 1px solid #cccccc;
+    padding: 1rem 1rem 2rem 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.service .icon {
+    background: linear-gradient(to right,#af01ff , #00f0f0 , #14f000 );
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 4rem;
+}
+
+.service h4 {
+    margin-bottom: 0.3rem;
+}
+
+.service .text {
+    margin-left: -2px;
+    font-size: 1.0rem;
+    color: #777;
+}
+
+/************* MEDIA QUERY *************/
+
+@media (max-width: 600px) {
+    .services {
+        width: 100%;
+    }
+
+}

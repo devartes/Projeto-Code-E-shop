@@ -15,7 +15,7 @@
 .login-form, .sign-up-form {
     width: 420px;
     padding: 20px 10px;
-    background: #222;
+    background: #727272;
     background-image: repeating-linear-gradient(to right, #b3ff00 0px, #cff37c 50px, #ffee00 50px, #f7fdca 100px, #fcb000 100px, #fad071 150px, #ff1500 150px, #f0766b 200px, #db9dbe 200px, #ff0088 250px, #9900ff 250px, #c49cdf 300px, #006aff 300px, #00c3ff 350px, #61c2e4 350px, #84d6f3 400px);
     background-size: 100% 10px;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@
 }
 
 .login-form strong, .sign-up-form strong {
-    color: #ffffff;
+    color: #000;
     font-size: 2rem;
     margin: 2px 7px 7px 7px;
     text-transform: uppercase;
@@ -78,12 +78,12 @@
 }
 
 .form-btns a {
-    color: #fff;
+    color: #000;
     font-size: 0.9rem;
 }
 
 .sign-up-btn {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #000;
     line-height: 16px;
 }
 
@@ -91,8 +91,12 @@
     position: absolute;
     right: 20px;
     top: 10px;
-    color: #fff;
+    color: #000;
 }
+
+.form-cancel:hover {
+    color: #fff;
+} 
 
 .login-form, .sign-up-form, .form {
     display: none;

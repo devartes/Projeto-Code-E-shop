@@ -20,6 +20,8 @@ session_start();
     <link rel="stylesheet" type="text/css" href="css/services.css">
     <link rel="stylesheet" type="text/css" href="css/product.css">
     <link rel="stylesheet" type="text/css" href="css/banner.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/menufixo.css">
     <!-- ****************************************************** -->
     <!-- ÍCONE NO TOPO DA TELA -->
     <link rel="short icon" href="imagens/code.png">
@@ -84,11 +86,11 @@ session_start();
             <!-- ÍCONE DO LADO DO MENU -->
             <div class="right-menu">
                 <!-- LUPA -->
-                <a href="#" class="search">
+                <a href="javascript:void(0);" class="search">
                     <i class="fas fa-search"></i>
                 </a>
                 <!-- USUÁRIO -->
-                <a href="#" class="user">
+                <a href="javascript:void(0);" class="user">
                     <i class="far fa-user"></i>
                 </a>
                 <!-- ÍCONE CARRINHO DE COMPRAS -->
@@ -110,7 +112,7 @@ session_start();
             <!-- INPUT -->
             <input type="text" placeholder="Procurar Produto">
             <!-- CANCELAMENTO BTN -->
-            <a href="#" class="search-cancel">
+            <a href="javascript:void(0);" class="search-cancel">
                 <i class="fas fa-times"></i>
             </a>
         </div>
@@ -122,7 +124,7 @@ session_start();
         <!-- LOGIN -->
         <div class="login-form">
             <!-- CANCELAMENTO BTN -->
-            <a href="#" class="form-cancel">
+            <a href="javascript:void(0);" class="form-cancel">
                 <i class="fas fa-times"></i>
             </a>
             <!-- **************** -->
@@ -150,7 +152,7 @@ session_start();
             <!-- ESQUECEU SENHA E CRIAR CONTA -->
             <div class="form-btns">
                 <a href="#" class="forget">Esqueceu Sua Senha?</a>
-                <a href="#" class="sign-up-btn">Criar Conta</a>
+                <a href="javascript:void(0);" class="sign-up-btn">Criar Conta</a>
             </div>
 
             <br>
@@ -163,7 +165,7 @@ session_start();
         <!-- SIGN UP -->
         <div class="sign-up-form">
             <!-- CANCELAMENTO BTN -->
-            <a href="#" class="form-cancel">
+            <a href="javascript:void(0);" class="form-cancel">
                 <i class="fas fa-times"></i>
             </a>
             <!-- **************** -->
@@ -180,7 +182,7 @@ session_start();
             </form>
             <!-- ESQUECEU A CONTA E SIGN UP -->
             <div class="form-btns">
-                <a href="#" class="already-account">Já Tem Conta?</a>
+                <a href="javascript:void(0);" class="already-account">Já Tem Conta?</a>
             </div>
             <!-- ****************** -->
         </div>
@@ -566,6 +568,20 @@ session_start();
     </script>
     <!-- ***************************************** -->
 
+    <!-- FIXAR MENU -->
+    <script>
+    
+    $(window).scroll(function(){
+        if($(document).scrollTop() > 50) {
+            $('.navigation').addClass('fix-nav');
+        }
+        else{
+            $('.navigation').removeClass('fix-nav');
+        }
+    });
+
+    </script>
+
     <!-- *********** JAVASCRIPT CARROSSEL ********* -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <!-- ***************************************** -->
@@ -594,6 +610,22 @@ session_start();
     ?>
 
     <!-- **************************** -->
+
+    <!-- FOOTER -->
+    <footer>
+    
+    <!-- COPYRIGHT -->
+    <span class="copyright">
+     Copyright 2021 - Devartes
+    </span>
+    <!-- SUBSCRIBE -->
+     <div class = "subscribe">
+      <form>
+        <input type = "email" placeholder = "example@gmail.com" required>
+        <input type = "submit" value="Subscribe">
+      </form>
+     </div>
+    </footer>
 </body>
 
 </html>

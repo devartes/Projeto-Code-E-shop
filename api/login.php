@@ -12,19 +12,19 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- ************************ CSS *********************** -->
-    <link rel="stylesheet" type="text/css" href="css/social.css">
-    <link rel="stylesheet" type="text/css" href="css/menu.css">
-    <link rel="stylesheet" type="text/css" href="css/search.css">
-    <link rel="stylesheet" type="text/css" href="css/login.css">
-    <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" href="css/services.css">
-    <link rel="stylesheet" type="text/css" href="css/product.css">
-    <link rel="stylesheet" type="text/css" href="css/banner.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/menufixo.css">
+    <link rel="stylesheet" type="text/css" href="../css/social.css">
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+    <link rel="stylesheet" type="text/css" href="../css/search.css">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/services.css">
+    <link rel="stylesheet" type="text/css" href="../css/product.css">
+    <link rel="stylesheet" type="text/css" href="../css/banner.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/menufixo.css">
     <!-- ****************************************************** -->
     <!-- ÍCONE NO TOPO DA TELA -->
-    <link rel="short icon" href="imagens/code.png">
+    <link rel="short icon" href="../imagens/code.png">
     <!-- ********************* -->
     <!-- **** FONTAWESOME **** -->
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
@@ -62,7 +62,7 @@ session_start();
         <div class="navigation">
             <!-- ******** LOGO ********* -->
             <a href="#" class="logo">
-                <img src="imagens/code.png">
+                <img src="../imagens/code.png">
             </a>
             <!-- ************************ -->
             <!-- *** ÍCONE DO MENU RESPONSIVO *** -->
@@ -140,7 +140,7 @@ session_start();
             ?>
             <!-- ****************************** -->
             <!-- INPUT -->
-            <form method="POST" action="php/codigo.php">
+            <form method="POST" action="codigo.php">
                 <br>
                 <input type="text" name="usuario" placeholder="exemplo@email.com">
 
@@ -192,7 +192,7 @@ session_start();
     <!-- ************************ HEADER ************************ -->
     <header id="home" class="header">
         <!-- IMAGEM DO MENU INICIAL -->
-        <img src="imagens/black.png" width="45%" class="propaganda-img" alt="">
+        <img src="../imagens/black.png" width="45%" class="propaganda-img" alt="">
         <!-- ********************** -->
         <div class="propaganda-content">
             <h1>
@@ -249,16 +249,16 @@ session_start();
     <div class="slider">
         <div class="slider-track">
             <div class="slide">
-                <a href="#"><img src="imagens/a.png" alt=""></a>
+                <a href="#"><img src="../imagens/a.png" alt=""></a>
             </div>
             <div class="slide">
-                <a href="#"><img src="imagens/b.png" alt=""></a>
+                <a href="#"><img src="../imagens/b.png" alt=""></a>
             </div>
             <div class="slide">
-                <a href="#"><img src="imagens/c.png" alt=""></a>
+                <a href="#"><img src="../imagens/c.png" alt=""></a>
             </div>
             <div class="slide">
-                <a href="#"><img src="imagens/d.png" alt=""></a>
+                <a href="#"><img src="../imagens/d.png" alt=""></a>
             </div>
         </div>
     </div>
@@ -277,7 +277,7 @@ session_start();
                 <div class="popular-carousel" data-flickity='{"autoPlay": true , "prevNextButtons": false, "wrapAround": true }'>
                     <!-- *********************** COMEÇO PRODUTO ************************* -->
                     <div class="single-item">
-                        <div class="img" style="background-image: url(imagens/1.jpg);"></div>
+                        <div class="img" style="background-image: url(../imagens/1.jpg);"></div>
                         <div class="info">
                             <h3>Game</h3>
                             <p>Essa é a descrição para o item</p>
@@ -300,7 +300,7 @@ session_start();
                     <!-- *********************** FINAL PRODUTO ************************* -->
                     <!-- *********************** COMEÇO PRODUTO ************************* -->
                     <div class="single-item">
-                        <div class="img" style="background-image: url(imagens/2.jpg);"></div>
+                        <div class="img" style="background-image: url(../imagens/2.jpg);"></div>
                         <div class="info">
                             <h3>Game</h3>
                             <p>Essa é a descrição para o item</p>
@@ -323,7 +323,7 @@ session_start();
                     <!-- *********************** FINAL PRODUTO ************************* -->
                     <!-- *********************** COMEÇO PRODUTO ************************* -->
                     <div class="single-item">
-                        <div class="img" style="background-image: url(imagens/3.jpg);"></div>
+                        <div class="img" style="background-image: url(../imagens/3.jpg);"></div>
                         <div class="info">
                             <h3>Game</h3>
                             <p>Essa é a descrição para o item</p>
@@ -346,7 +346,7 @@ session_start();
                     <!-- *********************** FINAL PRODUTO ************************* -->
                     <!-- *********************** COMEÇO PRODUTO ************************* -->
                     <div class="single-item">
-                        <div class="img" style="background-image: url(imagens/4.jpg);"></div>
+                        <div class="img" style="background-image: url(../imagens/4.jpg);"></div>
                         <div class="info">
                             <h3>Game</h3>
                             <p>Essa é a descrição para o item</p>
@@ -369,7 +369,7 @@ session_start();
                     <!-- *********************** FINAL PRODUTO ************************* -->
                     <!-- *********************** COMEÇO PRODUTO ************************* -->
                     <div class="single-item">
-                        <div class="img" style="background-image: url(imagens/5.jpg);"></div>
+                        <div class="img" style="background-image: url(../imagens/5.jpg);"></div>
                         <div class="info">
                             <h3>Game</h3>
                             <p>Essa é a descrição para o item</p>
@@ -406,7 +406,7 @@ session_start();
                 <div class="popular-carousel" data-flickity='{"autoPlay": true , "prevNextButtons": false, "wrapAround": true }'>
                     <!-- *********************** COMEÇO PRODUTO ************************* -->
                     <div class="single-item">
-                        <div class="img" style="background-image: url(imagens/1.jpg);"></div>
+                        <div class="img" style="background-image: url(../imagens/1.jpg);"></div>
                         <div class="info">
                             <h3>Game</h3>
                             <p>Essa é a descrição para o item</p>
@@ -429,7 +429,7 @@ session_start();
                     <!-- *********************** FINAL PRODUTO ************************* -->
                     <!-- *********************** COMEÇO PRODUTO ************************* -->
                     <div class="single-item">
-                        <div class="img" style="background-image: url(imagens/2.jpg);"></div>
+                        <div class="img" style="background-image: url(../imagens/2.jpg);"></div>
                         <div class="info">
                             <h3>Game</h3>
                             <p>Essa é a descrição para o item</p>
@@ -452,7 +452,7 @@ session_start();
                     <!-- *********************** FINAL PRODUTO ************************* -->
                     <!-- *********************** COMEÇO PRODUTO ************************* -->
                     <div class="single-item">
-                        <div class="img" style="background-image: url(imagens/3.jpg);"></div>
+                        <div class="img" style="background-image: url(../imagens/3.jpg);"></div>
                         <div class="info">
                             <h3>Game</h3>
                             <p>Essa é a descrição para o item</p>
@@ -475,7 +475,7 @@ session_start();
                     <!-- *********************** FINAL PRODUTO ************************* -->
                     <!-- *********************** COMEÇO PRODUTO ************************* -->
                     <div class="single-item">
-                        <div class="img" style="background-image: url(imagens/4.jpg);"></div>
+                        <div class="img" style="background-image: url(../imagens/4.jpg);"></div>
                         <div class="info">
                             <h3>Game</h3>
                             <p>Essa é a descrição para o item</p>
@@ -498,7 +498,7 @@ session_start();
                     <!-- *********************** FINAL PRODUTO ************************* -->
                     <!-- *********************** COMEÇO PRODUTO ************************* -->
                     <div class="single-item">
-                        <div class="img" style="background-image: url(imagens/5.jpg);"></div>
+                        <div class="img" style="background-image: url(../imagens/5.jpg);"></div>
                         <div class="info">
                             <h3>Game</h3>
                             <p>Essa é a descrição para o item</p>
@@ -527,8 +527,8 @@ session_start();
 
     <!-- ******************************************************** -->
     <!-- JQUERY -->
-    <script src="js/jQuery.js"></script>
-    <script src="js/clock.js"></script>
+    <script src="../js/jQuery.js"></script>
+    <script src="../js/clock.js"></script>
 
     <!-- ****** -->
     <!-- JAVASCRIPT BARRA DE PROCURA E LOGIN/SIGN UP -->

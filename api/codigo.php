@@ -21,14 +21,14 @@ if ($btnLogin) {
                 header("Location: administrativo.php");
             } else {
                 $_SESSION['msg'] = "Login e senha incorreto!";
-                header("Location: ../login.php");
+                header("Location: login.php");
             }
         }
     } else {
         $_SESSION['msg'] = "Login e senha incorreto!";
-        header("Location: ../login.php");
+        header("Location: login.php");
     }
 } else {
     $_SESSION['msg'] = "Página não encontrada";
-    header("Location: ../login.php");
+    header("Location: login.php");
 }

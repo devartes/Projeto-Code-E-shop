@@ -5,5 +5,5 @@ if (!empty($_SESSION['id'])) {
     echo "<a href='sair.php'>Sair</a>";
 } else {
     $_SESSION['msg'] = "Acesso negado!";
-    header("Location: ../login.php");
+    header("Location: login.php");
 }
